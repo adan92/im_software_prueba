@@ -17,6 +17,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("api/persona")
+@CrossOrigin(origins = "http://localhost:5173")
 @Validated
 public class PersonaController {
     private final PersonaService personaService;
