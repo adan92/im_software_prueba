@@ -1,3 +1,6 @@
+/**
+ * Componente que se encarga de representar la cabezera de la página
+ */
 const HeaderComponent = () => {
   return (
     <div>

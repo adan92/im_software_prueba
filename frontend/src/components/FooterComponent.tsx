@@ -1,3 +1,6 @@
+/**
+ * Componente que representa el pie de página
+ */
 const FooterComponent = () => {
   return (
     <div>

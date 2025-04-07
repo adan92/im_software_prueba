@@ -16,8 +16,7 @@ import java.util.List;
  * Expone endpoints para crear y consultar personas.
  */
 @RestController
-@RequestMapping("api/persona")
-@CrossOrigin(origins = "http://localhost:5173")
+@RequestMapping("api/persona") 
 @Validated
 public class PersonaController {
     private final PersonaService personaService;
