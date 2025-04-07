@@ -2,12 +2,14 @@ package com.mx.imsoftware.model.dtos;
 
 import com.mx.imsoftware.model.Persona;
 import jakarta.validation.constraints.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * DTO para transportar los datos de una persona y aplicar validaciones.
  */
-@Data
+@Setter
+@Getter
 public class RegistroPersonaDto {
     /**
      * Nombre de la persona. No debe exceder los 50 caracteres.
